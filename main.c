@@ -156,10 +156,64 @@ void modele1(int h, int m, int s, int c1, int c2)
 
 void modele2(int h, int m, int s, int c1, int c2)
 {
-	afficher(8,-10);
-        afficher(8,-5);
-        afficher(8,+2);
-        afficher(8,+7);
+	if(c2%2 == 1)
+                attron(A_BOLD);
+        else
+                attroff(A_BOLD);
+        attron(COLOR_PAIR(1+c2-(c2%2)));
+
+        mvprintw(HEIGHT+3,MIDDLE-4,"#");
+        mvprintw(HEIGHT+2,MIDDLE-4,"#");
+        mvprintw(HEIGHT+3,MIDDLE-3,"#");
+        mvprintw(HEIGHT+2,MIDDLE-3,"#");
+        mvprintw(HEIGHT+1,MIDDLE-3,"#");
+        mvprintw(HEIGHT+0,MIDDLE-3,"#");
+        mvprintw(HEIGHT+3,MIDDLE-1,"#");
+        mvprintw(HEIGHT+2,MIDDLE-1,"#");
+        mvprintw(HEIGHT+1,MIDDLE-1,"#");
+        mvprintw(HEIGHT+3,MIDDLE+0,"#");
+        mvprintw(HEIGHT+2,MIDDLE+0,"#");
+        mvprintw(HEIGHT+1,MIDDLE+0,"#");
+        mvprintw(HEIGHT+0,MIDDLE+0,"#");
+        mvprintw(HEIGHT+3,MIDDLE+2,"#");
+        mvprintw(HEIGHT+2,MIDDLE+2,"#");
+        mvprintw(HEIGHT+1,MIDDLE+2,"#");	
+        mvprintw(HEIGHT+3,MIDDLE+3,"#");
+        mvprintw(HEIGHT+2,MIDDLE+3,"#");
+        mvprintw(HEIGHT+1,MIDDLE+3,"#");
+        mvprintw(HEIGHT+0,MIDDLE+3,"#");
+
+        if(c1%2 == 1)
+                attron(A_BOLD);
+        else
+                attroff(A_BOLD);
+        attron(COLOR_PAIR(1+c1-(c1%2)));
+
+	mvprintw(HEIGHT+3,MIDDLE-4,"%c",((h/10)%2!=0)*35);
+	mvprintw(HEIGHT+2,MIDDLE-4,"%c",(((h/10)/2)%2!=0)*35);
+
+        mvprintw(HEIGHT+3,MIDDLE-3,"%c",((h%10)%2!=0)*35);
+        mvprintw(HEIGHT+2,MIDDLE-3,"%c",(((h%10)/2)%2!=0)*35);
+        mvprintw(HEIGHT+1,MIDDLE-3,"%c",(((h%10)/4)%2!=0)*35);
+        mvprintw(HEIGHT+0,MIDDLE-3,"%c",(((h%10)/8)%2!=0)*35);
+
+        mvprintw(HEIGHT+3,MIDDLE-1,"%c",((m/10)%2!=0)*35);
+        mvprintw(HEIGHT+2,MIDDLE-1,"%c",(((m/10)/2)%2!=0)*35);
+        mvprintw(HEIGHT+1,MIDDLE-1,"%c",(((m/10)/4)%2!=0)*35);
+
+        mvprintw(HEIGHT+3,MIDDLE+0,"%c",((m%10)%2!=0)*35);
+        mvprintw(HEIGHT+2,MIDDLE+0,"%c",(((m%10)/2)%2!=0)*35);
+        mvprintw(HEIGHT+1,MIDDLE+0,"%c",(((m%10)/4)%2!=0)*35);
+        mvprintw(HEIGHT+0,MIDDLE+0,"%c",(((m%10)/8)%2!=0)*35);
+
+        mvprintw(HEIGHT+3,MIDDLE+2,"%c",((s/10)%2!=0)*35);
+        mvprintw(HEIGHT+2,MIDDLE+2,"%c",(((s/10)/2)%2!=0)*35);
+        mvprintw(HEIGHT+1,MIDDLE+2,"%c",(((s/10)/4)%2!=0)*35);
+
+        mvprintw(HEIGHT+3,MIDDLE+3,"%c",((s%10)%2!=0)*35);
+        mvprintw(HEIGHT+2,MIDDLE+3,"%c",(((s%10)/2)%2!=0)*35);
+        mvprintw(HEIGHT+1,MIDDLE+3,"%c",(((s%10)/4)%2!=0)*35);
+        mvprintw(HEIGHT+0,MIDDLE+3,"%c",(((s%10)/8)%2!=0)*35);
 }
 
 int main(int argc, char **argv)
