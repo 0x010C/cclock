@@ -154,6 +154,14 @@ void modele1(int h, int m, int s, int c1, int c2)
 	afficherSec(s);
 }
 
+void modele2(int h, int m, int s, int c1, int c2)
+{
+	afficher(8,-10);
+        afficher(8,-5);
+        afficher(8,+2);
+        afficher(8,+7);
+}
+
 int main(int argc, char **argv)
 {
 	time_t tempsBrute;
@@ -162,6 +170,7 @@ int main(int argc, char **argv)
 	int buf, i;
 	/* Variables de stoquage des paramètres */
 	int c1 = 9, c2 = 10;
+	void (*modele)(int, int, int, int, int) = modele1;
 
 	/* Initialisation et paramétrage de ncurses */
 	initscr();
@@ -198,6 +207,23 @@ int main(int argc, char **argv)
 			if(buf > 0 && buf < 15)
 				c2 = buf;
 		}
+		else if(strcmp(argv[i], "-m") == 0 && i+1<argc)
+		{
+			i++;
+			buf = atoi(argv[i]);
+			if(buf > 0 && buf < 3)
+			{
+				switch(buf)
+				{
+					case 1:
+						modele = modele1;
+						break;
+					case 2:
+						modele = modele2;
+						break;
+				}
+			}
+		}
 		else
 			fprintf(stderr, "Error : Invalid Parameter \"%s\"\n", argv[i]);
 	}
@@ -214,7 +240,8 @@ int main(int argc, char **argv)
 		/* Effacage de l'écran pour éviter les problème lors de redimentionnements */
 		clear(); /* TODO: enlever a terme le clear */
 
-		modele1(tempsLisible.tm_hour, tempsLisible.tm_min, tempsLisible.tm_sec, c1, c2);
+		/* Apel de la fonction d'affichage de l'heure en fonction du modèle choisi */
+		(*modele)(tempsLisible.tm_hour, tempsLisible.tm_min, tempsLisible.tm_sec, c1, c2);
 
 		refresh();
 		sleep(1);
