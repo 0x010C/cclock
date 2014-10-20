@@ -21,93 +21,93 @@ void afficher(int num, int offset)
 			break;
 
 		case 1:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
 			break;
 
 		case 2:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 
 		case 3:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset," ###");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+3,MIDDLE+offset," ###");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 
 		case 4:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
 			break;
 
 		case 5:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 
 		case 6:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"#   ");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"#   ");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 
 		case 7:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset," ###");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+3,MIDDLE+offset," ###");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"   #");
 			break;
 
 		case 8:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 
 		case 9:
-                        mvprintw(HEIGHT+0,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
-                        mvprintw(HEIGHT+3,MIDDLE+offset,"####");
-                        mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
-                        mvprintw(HEIGHT+6,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+0,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+1,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+2,MIDDLE+offset,"#  #");
+			mvprintw(HEIGHT+3,MIDDLE+offset,"####");
+			mvprintw(HEIGHT+4,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+5,MIDDLE+offset,"   #");
+			mvprintw(HEIGHT+6,MIDDLE+offset,"####");
 			break;
 	}
 }
@@ -129,45 +129,92 @@ void afficherSec(int sec)
 		mvprintw(HEIGHT-1,MIDDLE-11+(i-49),"#");
 }
 
-int main()
+void modele1(int h, int m, int s, int c1, int c2)
+{
+	if(c1%2 == 1)
+		attron(A_BOLD);
+	else
+		attroff(A_BOLD);
+	attron(COLOR_PAIR(1+c1-(c1%2)));
+
+	afficher(h/10,-10);
+	afficher(h%10,-5);
+	afficher(m/10,+2);
+	afficher(m%10,+7);
+
+	mvprintw(HEIGHT+2,MIDDLE,"#");
+	mvprintw(HEIGHT+4,MIDDLE,"#");
+
+	if(c2%2 == 1)
+		attron(A_BOLD);
+	else
+		attroff(A_BOLD);
+	attron(COLOR_PAIR(1+c2-(c2%2)));
+
+	afficherSec(s);
+}
+
+int main(int argc, char **argv)
 {
 	time_t tempsBrute;
 	struct tm tempsLisible;
+	/* Variables d'usage */
+	int buf, i;
+	/* Variables de stoquage des paramètres */
+	int c1 = 9, c2 = 10;
 
+	/* Initialisation et paramétrage de ncurses */
 	initscr();
-        noecho();
-        keypad(stdscr, TRUE);
-        curs_set(0);
-        start_color();
-        nodelay(stdscr, TRUE);
+	noecho();
+	keypad(stdscr, TRUE);
+	curs_set(0);
+	start_color();
+	nodelay(stdscr, TRUE);
 
-        /*Mise en place des paires de couleurs*/
-        init_pair(1, COLOR_WHITE, COLOR_BLACK); /* Fond */
-        init_pair(2, COLOR_YELLOW, COLOR_BLACK); /* Sélectionné */
+	/*Mise en place des paires de couleurs*/
+	init_pair(1, COLOR_WHITE, COLOR_BLACK);
+	init_pair(3, COLOR_CYAN, COLOR_BLACK);
+	init_pair(5, COLOR_MAGENTA, COLOR_BLACK);
+	init_pair(7, COLOR_BLUE, COLOR_BLACK);
+	init_pair(9, COLOR_YELLOW, COLOR_BLACK);
+	init_pair(11, COLOR_GREEN, COLOR_BLACK);
+	init_pair(13, COLOR_RED, COLOR_BLACK);
 
+	/* Gestion des paramètres */
+	for(i=1;i<argc;i++)
+	{
+		/* Si le paramètre est "-c1" */
+		if(strcmp(argv[i],"-c1") == 0 && i+1<argc)
+		{
+			i++;
+			buf = atoi(argv[i]);
+			if(buf > 0 && buf < 15)
+				c1 = buf;
+		}
+		else if(strcmp(argv[i],"-c2") == 0 && i+1<argc)
+		{
+			i++;
+			buf = atoi(argv[i]);
+			if(buf > 0 && buf < 15)
+				c2 = buf;
+		}
+		else
+			fprintf(stderr, "Error : Invalid Parameter \"%s\"\n", argv[i]);
+	}
+
+	/* On boucle tant que l'utilisateur n'appuye pas sur "q" */
 	while(getch() != 'q')
 	{
+		/* Récupération du temps */
 		time(&tempsBrute);
+		/* Convertion en quelque chose de lisible */
 		gmtime_r(&tempsBrute, &tempsLisible);
+		/* Application éventuel de l'heure d'été */
 		tempsLisible.tm_hour += 2 + (tempsLisible.tm_isdst != -1)*tempsLisible.tm_isdst;
+		/* Effacage de l'écran pour éviter les problème lors de redimentionnements */
 		clear(); /* TODO: enlever a terme le clear */
 
-		mvprintw(1,1,"#%d#%d#",A_BOLD, A_NORMAL);
-		attron(A_BOLD);
-		attron(COLOR_PAIR(2));
-		afficher(tempsLisible.tm_hour/10,-10);
-		afficher(tempsLisible.tm_hour%10,-5);
-		afficher(tempsLisible.tm_min/10,+2);
-		afficher(tempsLisible.tm_min%10,+7);
-
-                mvprintw(HEIGHT+2,MIDDLE,"#");
-                mvprintw(HEIGHT+4,MIDDLE,"#");
-
-                attroff(A_BOLD);
-
-		afficherSec(tempsLisible.tm_sec);
-
-		attroff(COLOR_PAIR(2));
+		modele1(tempsLisible.tm_hour, tempsLisible.tm_min, tempsLisible.tm_sec, c1, c2);
 
 		refresh();
 		sleep(1);
